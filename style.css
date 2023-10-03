@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-header{
+    height: 72px;
+
+}
+
+.header-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.itens-menu{
+    font-family: 'Sarala', sans-serif;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main{
+    border-top: 0.4px solid antiquewhite;
+    margin-bottom: 48px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content-writh{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-content-writh-h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: antiquewhite;
+}
+
+.main-content-writh-h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.main-content-writh-button{
+    background-color: #8E5D52;
+    width: 180px;
+    height: 60px;
+    border:  none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main-content-img{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid antiquewhite;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-p1,
+.conteudo-secundario-p2,
+.conteudo-secundario-p3{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: 300;
+}
+
+.rodape{
+    border-top: 0.4px solid antiquewhite;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
